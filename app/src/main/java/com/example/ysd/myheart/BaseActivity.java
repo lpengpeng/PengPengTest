@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 
 public abstract class BaseActivity extends AppCompatActivity implements View.OnClickListener {
-
+//Janpan
 
     /**
      * 是否沉浸状态栏

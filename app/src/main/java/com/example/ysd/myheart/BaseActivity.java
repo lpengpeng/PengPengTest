@@ -180,6 +180,7 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
     public void startActivityForResult(Class<?> cls, Bundle bundle,
                                        int requestCode) {
         Intent intent = new Intent();
+
         intent.setClass(this, cls);
         if (bundle != null) {
             intent.putExtras(bundle);

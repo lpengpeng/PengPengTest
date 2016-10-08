@@ -33,6 +33,7 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
      * 是否禁止旋转屏幕
      **/
     private boolean isAllowScreenRoate = false;
+
     /**
      * 当前Activity渲染的视图View
      **/

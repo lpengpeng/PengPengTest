@@ -204,6 +204,7 @@ public abstract class BaseActivity extends AppCompatActivity implements View.OnC
     protected void onResume() {
         super.onResume();
         Log.d(TAG, "onResume()");
+
     }
 
     @Override
